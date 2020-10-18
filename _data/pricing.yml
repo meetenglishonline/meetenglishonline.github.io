@@ -1,0 +1,31 @@
+- title: Free
+  price: 0.00
+  features:
+    - title: Shuffle play
+    - title: Ad free
+    - title: Unlimited skip
+    - title: Listen offline
+    - title: Play any track
+
+- title: General Contractor
+  price: 9.99
+  trial: 30 days free trial
+  tagline: 
+  features:
+    - title: Shuffle play
+    - title: Ad free
+    - title: Unlimited skip
+    - title: Listen offline
+    - title: Play any track
+  button:
+
+- title: Specialty Contractor
+  price: 12.99
+  trial: 30 days free trial
+  features:
+    - title: Shuffle play
+    - title: Ad free
+    - title: Unlimited skip
+    - title: Listen offline
+    - title: Play any track
+  button: 

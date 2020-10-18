@@ -1,0 +1,50 @@
+<div class="container default-container-padding">
+	<div class="section-header-container">
+		<h2 class="section-header text-center">Pricing</h2>
+	</div>
+	
+	<div class="pricing-wrapper d-flex flex-wrap">
+		{% for pricing in site.data.pricing %}
+		<div class="pricing-item col-12 col-md-4">
+			<div class="pricing-item-wrapper" style="margin-top: 10px;">
+				<div class="pricing-top-bar {% cycle 'bar-plan-free', 'bar-plan-general', 'bar-plan-special' %}">
+					{% if pricing.tagline !=null %}
+					<span class="top-bar-text d-block">{{ pricing.tagline }}</span>
+					{% endif %}
+				</div>
+
+				<div class="content-padding">
+					<div class="pricing-header-container {% cycle 'header-plan-free', 'header-plan-general' , 'header-plan-special' %}">
+						<h3 class="pricing-header d-block">{{ pricing.title }}</h3>
+						<span class="pricing-price d-block">${{ pricing.price }}<span class="sub-text">/month</span></span>
+						{% if pricing.tagline !=null %}
+						<span class="pricing-trial d-block">{{ pricing.trial }}</span>
+						{% endif %}
+					</div>
+
+					<hr class="divider"/>
+
+					<div class="pricing-content-container">
+						<ul class="{% cycle 'feature-plan-free', 'feature-plan-general', 'feature-plan-special' %}">
+							{% for feature in pricing.features %}
+							<li class="feature-list">
+								<span class="feature-icon fa fa-check  d-none d-xl-inline-block d-lg-inline-block d-md-inline-block"></span>
+								<span class="feature-title d-inline-block">{{ feature.title }}</span> 
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+
+					<hr class="divider"/>
+
+					<div class="pricing-button-container">
+						{% if pricing.button !=null %}
+						<a class="form-click pricing-button {% cycle 'button-plan-general', 'button-plan-special' %}">{{ pricing.button }}</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

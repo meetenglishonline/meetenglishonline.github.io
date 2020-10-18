@@ -1,0 +1,14 @@
+- name: Jane Doe
+  image: /img/avatar.jpg
+  tagline: Lorem Ipsum dolor sit amet
+  resume: 
+
+- name: Jane Doe
+  image: /img/avatar.jpg
+  tagline: Lorem Ipsum dolor sit amet
+  resume:
+
+- name: Jane Doe
+  image: /img/avatar.jpg
+  tagline: Lorem Ipsum dolor sit amet
+  resume:

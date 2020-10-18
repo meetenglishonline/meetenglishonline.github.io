@@ -1,0 +1,314 @@
+@import "main";
+$boilerplate-pricing-background-color: #fafafa;
+
+// Global
+.no-gutters{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#cover{
+	position: relative;
+	
+	.carousel-image{
+		z-index: 1;
+	}
+
+	.bg-overlay{
+		position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+		z-index: 2;
+		top: 0;
+	}
+
+	.carousel-caption{
+		top: 50%;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		padding-top: 0;
+		padding-bottom: 0;
+		bottom: initial;
+
+		h2{
+			font-size: 48px;
+			margin-bottom: 15px;
+			p{
+				line-height: 1.6;
+			}
+		}
+	}
+}
+
+#pricing{
+	position: relative;
+	background-color: $boilerplate-pricing-background-color;
+	.container{
+		.pricing-wrapper{
+			padding-top: 40px;
+			padding-bottom: 40px;
+			.pricing-item{
+				max-width: 450px;
+				margin-left: auto;
+				margin-right: auto;
+				.pricing-item-wrapper{
+					border: 1px solid rgba(102,102,102,0.3);                
+					box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+					.pricing-top-bar{
+						position: relative;
+						&.bar-plan-free{
+							background-color: #3498db;
+							height: 20px;
+						}
+
+						&.bar-plan-general{
+							background-color: #27ae60;
+							height: 20px;
+						}
+						&.bar-plan-special{
+							background-color: $orange-color;
+							height: 20px;
+							.top-bar-text{
+								
+								font-size: 14px;
+								text-transform: uppercase;
+								text-align: center;
+								font-weight: 400;
+								color: white;
+								padding: 9.5px 0;
+							}
+						}
+					}
+					.content-padding{
+						padding-left: 40px;
+						padding-right: 40px;
+					
+						.pricing-header-container{
+							padding-top: 30px;
+							.pricing-header{
+								
+								font-size: 34px;
+								letter-spacing: 2px;
+								font-weight: 700;
+								padding-bottom: 10px;
+							}
+							.pricing-price{
+								
+								font-size: 28px;
+								letter-spacing: 2px;
+								font-weight: 700;
+								padding-bottom: 5px;
+								.sub-text{
+									font-size: 18px;
+									font-weight: 400;
+									margin-left: 10px;
+								}
+							}
+							.pricing-trial{
+								color: #43a047;
+							}
+
+							&.header-plan-free{
+								.pricing-header{
+									color: #3498db;
+								}
+								.pricing-price{
+									padding-bottom: 30px;
+									color: #3498db;
+								}
+							}
+							&.header-plan-special{
+								.pricing-header{
+									color: $orange-color;
+								}
+								.pricing-price{
+									color: $orange-color;
+								}
+							}
+						}
+						.divider{
+							background-color: #e2e2e2;
+							height: 3px;
+							border-top: 0;
+						}
+						.pricing-content-container{
+							ul{
+								padding-top: 10px;
+								padding-bottom: 10px;
+								list-style: none;
+								padding-left: 0;
+
+								&.feature-plan-free{
+									.feature-list{
+										&:nth-child(1){
+											.feature-icon{
+												color: #3498db;
+											}
+											.feature-title{
+												color: #3498db;
+											}
+										}
+
+									}
+									
+								}
+
+								&.feature-plan-special{
+									.feature-list{
+										.feature-icon{
+											color: $orange-color;
+										}
+										.feature-title{
+											color: $orange-color;
+										}
+									}
+								}
+
+								.feature-list{
+									margin-bottom: 10px;
+									.feature-icon{
+										color: #a4a4a4;
+									}
+									.feature-title{
+										color: #a4a4a4;
+										margin-left: 25px;
+									}
+								
+								}
+							}
+						}
+						.pricing-button-container{
+							padding-top: 15px;
+							padding-bottom: 35px;
+							min-height: 100px;
+							.pricing-button{
+								font-size: 24px;
+								text-transform: uppercase;
+								font-family: Catamaran;
+								font-weight: 700;
+								background-color: $orange-color;
+								color: white;
+								text-decoration: none;
+								width: 100%;
+								display: block;
+								text-align: center;
+								border-radius: 25px;
+								padding: 10px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	} 
+}
+
+
+@media(max-width: 991px){
+  #pricing{
+		.container{
+			max-width: 100%;
+			.pricing-wrapper{
+				.pricing-item{
+					.pricing-item-wrapper{
+						.content-padding{
+							padding-left: 15px;
+							padding-right: 15px;
+							.pricing-header-container{
+								.pricing-header{
+									font-size: 28px;
+								}
+								.pricing-price{
+									font-size: 24px;
+								}
+							}
+							.pricing-button-container{
+								.pricing-button{
+								 font-size: 16px;   
+								}
+							} 
+						}
+					} 
+				} 
+			} 
+		}
+	} 
+}
+
+@media(max-width: 767px) {
+  #pricing{
+		.container{
+			.pricing-wrapper{
+				.pricing-item{
+					max-width: 400px;
+					margin-bottom: 50px;
+					.pricing-item-wrapper{
+						.content-padding{
+							.pricing-header-container{
+								padding-top: 20px;
+								.pricing-header{
+									text-align: center;
+									font-size: 34px;
+								}
+								.pricing-price{
+									text-align: center;
+									font-size: 28px;
+									padding-bottom: 20px !important;
+								}
+								.pricing-trial{
+									text-align: center;
+								}
+							}
+							.pricing-content-container{
+								ul{
+									.feature-list{
+										text-align: center;
+										.feature-title{
+											margin-left: 0;
+										}
+									}
+								} 
+							} 
+						} 
+					} 
+				}
+			} 
+		} 
+	}
+}
+
+@media(max-width: 425px) {
+  #pricing{
+		.container{
+			.pricing-wrapper{
+				padding-bottom: 0;
+				.pricing-item{
+					max-width: 100%;
+					.pricing-item-wrapper{
+						.content-padding{
+							.pricing-header-container{
+								.pricing-header{
+									font-size: 28px;
+								}
+								.pricing-price{
+									font-size: 24px;
+								}
+							}
+							.pricing-button-container{
+								.pricing-button{
+								 font-size: 16px;   
+								}
+							}
+						}
+					}  
+					
+				}
+			} 
+		} 
+	} 
+}
+

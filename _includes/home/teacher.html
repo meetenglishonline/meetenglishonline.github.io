@@ -1,0 +1,20 @@
+<div class="container default-container-padding">
+  <div class="section-header-container">
+		<h2 class="section-header text-center">Teachers</h2>
+  </div>
+  
+  <div class="row">
+    {% for teacher in site.data.teacher %}
+    <div class="col-4">
+      <div class="card">
+        <img class="card-img-top" src="{{ teacher.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ teacher.name }}</h5>
+          <p class="card-text">{{ teacher.tagline }}</p>
+          <a href="{{ teacher.resume }}" target="_blank" class="btn btn-primary">View Teacher Info</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
