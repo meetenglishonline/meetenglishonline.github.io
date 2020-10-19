@@ -314,6 +314,12 @@ $boilerplate-pricing-background-color: #fafafa;
 }
 
 @media(max-width: 425px) {
+	.navbar-light{
+		.navbar-brand{
+			margin-left: 1rem;
+		}
+	} 
+
 	.default-container-padding{
 		padding-top: 30px;
 		padding-bottom: 30px;
