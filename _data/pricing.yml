@@ -1,23 +1,13 @@
-- title: Free
-  price: 0.00
+- title: プロモーション!!!
+  price: 500円トライアルクラス
+  trial: 通常料金：
   features:
-    - title: Shuffle play
-    - title: Ad free
-    - title: Unlimited skip
-    - title: Listen offline
-    - title: Play any track
+    - title: 1クラス/ 30分= 700円
+    - title: 1ヶ月だけ20クラスを登録する 10,000円 (各クラス500円)
+    - title:
+    - title: 
 
-- title: General Contractor
-  price: 9.99
-  trial: 30 days free trial
-  tagline: 
-  features:
-    - title: Shuffle play
-    - title: Ad free
-    - title: Unlimited skip
-    - title: Listen offline
-    - title: Play any track
-  button:
+
 
 - title: Specialty Contractor
   price: 12.99

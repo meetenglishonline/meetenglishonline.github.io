@@ -1,14 +1,14 @@
-- name: Jane Doe
-  image: /img/avatar.jpg
-  tagline: Lorem Ipsum dolor sit amet
-  resume: 
+- name: Melanie (メラニー)
+  image: /img/teacher-avatar/melanie.png
+  tagline:
+  resume: /img/teacher-portfolio/mel.pdf
 
-- name: Jane Doe
-  image: /img/avatar.jpg
-  tagline: Lorem Ipsum dolor sit amet
-  resume:
+- name: JOY (喜び)
+  image: /img/teacher-avatar/frances.png
+  tagline: 
+  resume: /img/teacher-portfolio/frances.pdf
 
-- name: Jane Doe
-  image: /img/avatar.jpg
-  tagline: Lorem Ipsum dolor sit amet
-  resume:
+- name: Jean Loury (メラニー)
+  image: /img/teacher-avatar/jean.png
+  tagline: 
+  resume: /img/teacher-portfolio/jean.pdf

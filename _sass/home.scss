@@ -35,10 +35,32 @@ $boilerplate-pricing-background-color: #fafafa;
 		bottom: initial;
 
 		h2{
-			font-size: 48px;
+			font-size: 44px;
 			margin-bottom: 15px;
-			p{
-				line-height: 1.6;
+			
+		}
+	}
+}
+
+.gallery-list{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#services{
+	.container{
+		.logo-container{
+			margin-top: 60px;
+
+			.logo-list{
+				.logo-image{
+					height: 60px;
+					margin-bottom: 15px;
+				}
+
+				.logo-title{
+					font-weight: 700;
+				}
 			}
 		}
 	}
@@ -51,6 +73,7 @@ $boilerplate-pricing-background-color: #fafafa;
 		.pricing-wrapper{
 			padding-top: 40px;
 			padding-bottom: 40px;
+
 			.pricing-item{
 				max-width: 450px;
 				margin-left: auto;
@@ -86,6 +109,7 @@ $boilerplate-pricing-background-color: #fafafa;
 					.content-padding{
 						padding-left: 40px;
 						padding-right: 40px;
+						padding-bottom: 40px;
 					
 						.pricing-header-container{
 							padding-top: 30px;
@@ -96,12 +120,13 @@ $boilerplate-pricing-background-color: #fafafa;
 								font-weight: 700;
 								padding-bottom: 10px;
 							}
+
 							.pricing-price{
-								
-								font-size: 28px;
+								font-size: 24px;
 								letter-spacing: 2px;
-								font-weight: 700;
+								font-weight: 400;
 								padding-bottom: 5px;
+
 								.sub-text{
 									font-size: 18px;
 									font-weight: 400;
@@ -109,16 +134,16 @@ $boilerplate-pricing-background-color: #fafafa;
 								}
 							}
 							.pricing-trial{
-								color: #43a047;
+								font-size: 18px;
 							}
 
 							&.header-plan-free{
 								.pricing-header{
-									color: #3498db;
+									color: #4a4a4a;
 								}
 								.pricing-price{
 									padding-bottom: 30px;
-									color: #3498db;
+									color: #4a4a4a;
 								}
 							}
 							&.header-plan-special{
@@ -144,26 +169,11 @@ $boilerplate-pricing-background-color: #fafafa;
 
 								&.feature-plan-free{
 									.feature-list{
-										&:nth-child(1){
-											.feature-icon{
-												color: #3498db;
-											}
-											.feature-title{
-												color: #3498db;
-											}
-										}
-
-									}
-									
-								}
-
-								&.feature-plan-special{
-									.feature-list{
 										.feature-icon{
-											color: $orange-color;
+											color: #2ecc71;
 										}
 										.feature-title{
-											color: $orange-color;
+											color: #4a4a4a;
 										}
 									}
 								}
@@ -171,11 +181,12 @@ $boilerplate-pricing-background-color: #fafafa;
 								.feature-list{
 									margin-bottom: 10px;
 									.feature-icon{
-										color: #a4a4a4;
+										color: #4a4a4a;
 									}
 									.feature-title{
-										color: #a4a4a4;
-										margin-left: 25px;
+										color: #4a4a4a;
+										font-size: 18px;
+										margin-left: 5px;
 									}
 								
 								}
@@ -205,6 +216,15 @@ $boilerplate-pricing-background-color: #fafafa;
 			}
 		}
 	} 
+}
+
+.contact-container{
+	margin-top: 10px;
+
+	.contact-item{
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
 }
 
 
@@ -240,6 +260,18 @@ $boilerplate-pricing-background-color: #fafafa;
 }
 
 @media(max-width: 767px) {
+	#services{
+		.container{
+			.logo-container{
+				.logo-list{
+					.logo-image{
+						height: auto;
+					}
+				} 
+			} 
+		} 
+	} 
+
   #pricing{
 		.container{
 			.pricing-wrapper{
@@ -282,6 +314,39 @@ $boilerplate-pricing-background-color: #fafafa;
 }
 
 @media(max-width: 425px) {
+	.default-container-padding{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#cover{
+		.carousel-caption{
+			h2{
+				font-size: 20px;
+			}
+		} 
+	} 
+
+	.section-header-container{
+		.section-header{
+			font-size: 24px;
+		}
+	}
+	
+	#services{
+		.container{
+			.logo-container{
+				margin-top: 30px;
+
+				.logo-list{
+					.logo-image{
+						width: 60%;
+					}
+				} 
+			} 
+		} 
+	} 
+
   #pricing{
 		.container{
 			.pricing-wrapper{
