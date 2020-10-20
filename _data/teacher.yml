@@ -1,14 +1,17 @@
-- name: Melanie (メラニー)
-  image: /img/teacher-avatar/melanie.png
-  tagline:
-  resume: /img/teacher-portfolio/mel.pdf
+title: あなたの英語の先生
+profile-button-text: 教師情報を見る
+teacher:
+  - name: Melanie (メラニー)
+    image: /img/teacher-avatar/melanie.png
+    tagline:
+    resume: /img/teacher-portfolio/mel.pdf
 
-- name: JOY (喜び)
-  image: /img/teacher-avatar/frances.png
-  tagline: 
-  resume: /img/teacher-portfolio/frances.pdf
+  - name: JOY (喜び)
+    image: /img/teacher-avatar/frances.png
+    tagline: 
+    resume: /img/teacher-portfolio/frances.pdf
 
-- name: Jean Loury (メラニー)
-  image: /img/teacher-avatar/jean.png
-  tagline: 
-  resume: /img/teacher-portfolio/jean.pdf
+  - name: Jean Loury (メラニー)
+    image: /img/teacher-avatar/jean.png
+    tagline: 
+    resume: /img/teacher-portfolio/jean.pdf

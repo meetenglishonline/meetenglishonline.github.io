@@ -7,36 +7,29 @@
 		
 		<div class="pricing-item col-12 col-md-6">
 			<div class="pricing-item-wrapper" style="margin-top: 10px;">
-				<div class="pricing-top-bar bar-plan-free">
-				
-					<span class="top-bar-text d-block">{{ pricing.tagline }}</span>
-				</div>
+				<div class="pricing-top-bar bar-plan-free"></div>
 
 				<div class="content-padding">
 					<div class="pricing-header-container header-plan-free">
-						<h3 class="pricing-header d-block">プロモーション!!!</h3>
-						<span class="pricing-price d-block"> 500円トライアルクラス</span>
-						<span class="pricing-trial d-block">通常料金：</span>
+						<h3 class="pricing-header d-block">{{ site.data.services.services.column1.title }}</h3>
+						<span class="pricing-price d-block">{{ site.data.services.services.column1.subtitle }}</span>
+						<span class="pricing-trial d-block">{{ site.data.services.services.column1.sub-text }}</span>
 					</div>
 
 					<hr class="divider"/>
 
 					<div class="pricing-content-container">
 						<ul class="feature-plan-free">
+							{% for item in site.data.services.services.column1.features %}
 							<li class="feature-list">
-								<!-- <span class="feature-icon fa fa-check  d-none d-xl-inline-block d-lg-inline-block d-md-inline-block"></span> -->
-								<span class="feature-title d-inline-block">1クラス/ 30分= 700円</span> 
+								<span class="feature-title d-inline-block">{{ item.item }}</span> 
 							</li>
-
-							<li class="feature-list">
-								<!-- <span class="feature-icon fa fa-check  d-none d-xl-inline-block d-lg-inline-block d-md-inline-block"></span> -->
-								<span class="feature-title d-inline-block">1ヶ月だけ20クラスを登録する 10,000円 (各クラス500円)</span> 
-							</li>
+							{% endfor %}
 						</ul>
 
 						<div class="paypal-icon">
-							<span class="pricing-trial d-block">料金を送る：</span>
-							<img style="width: 80%;" class="img-fluid center-block" src="/img/video-logo/paypal.png" /> 
+							<span class="pricing-trial d-block">{{ site.data.services.services.column1.bottom-text }}</span>
+							<img style="width: 80%;" class="img-fluid center-block" src="{{ site.data.services.services.column1.bottom-logo }}" /> 
 						</div>
 					</div>
 				</div>
@@ -45,105 +38,27 @@
 
 		<div class="pricing-item col-12 col-md-6">
 			<div class="pricing-item-wrapper" style="margin-top: 10px;">
-				<div class="pricing-top-bar bar-plan-free">
-				
-					<span class="top-bar-text d-block">{{ pricing.tagline }}</span>
-				</div>
+				<div class="pricing-top-bar bar-plan-free"></div>
 
 				<div class="content-padding">
 					<div class="pricing-header-container header-plan-free">
-						<h3 class="pricing-header d-block">提供されるサービス</h3>
-						<span class="pricing-price d-block"> すべての年齢</span>
-						<span class="pricing-trial d-block"></span>
+						<h3 class="pricing-header d-block">{{ site.data.services.services.column2.title }}</h3>
+						<span class="pricing-price d-block">{{ site.data.services.services.column2.subtitle }}</span>						
 					</div>
 
 					<hr class="divider"/>
 
 					<div class="pricing-content-container">
 						<ul class="feature-plan-free">
+							{% for item in site.data.services.services.column2.features %}
 							<li class="feature-list">
 								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">1クラス/ 30分= 700円</span> 
+								<span class="feature-title">{{ item.item }}</span> 
 							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">1ヶ月だけ20クラスを登録する 10,000円 (各クラス500円)</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">ビジネス英語</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">英語のアルファベットを学ぶ</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">フォニックスサウンド
-								</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">毎日の会話</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">話す</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">リスニング</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">読解</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">書く</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">Business English</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">Writing</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">IELTS</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">IEKEN</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">OPIC</span> 
-							</li>
-
-							<li class="feature-list">
-								<span class="feature-icon fa fa-check"></span>
-								<span class="feature-title">TOEFL</span> 
-							</li>
+							{% endfor %}
 						</ul>
 
-						<span class="pricing-trial d-block">*レベルごとに異なる本があります*</span>
+						<span class="pricing-trial d-block">{{ site.data.services.services.column2.bottom-text }}</span>
 
 					</div>
 

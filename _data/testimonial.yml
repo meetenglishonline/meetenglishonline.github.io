@@ -1,0 +1,24 @@
+title: 幸せな学生
+button-text: お客様の声。 
+testimonial:
+  - id: 1
+    text: 'I&#39;m working at pharmaceutical company and English is important to my
+  job but I was shy and conscious to speak English. But everything
+  changed when I join here and met my teacher. She gave me more
+  encouragement and confidence to speak English so I am truly greatful
+  for her hardwork and I hope she continues to practice my English for my
+  work as well as for my coming Eiken exam'
+    image: /img/student/student1.jpg
+
+  - id: 2
+    text:
+    image: /img/student/student2.jpg
+
+  - id: 3
+    text:
+    image: /img/student/student3.jpg
+
+  - id: 4
+    text:
+    image: /img/student/student4.jpg
+  
