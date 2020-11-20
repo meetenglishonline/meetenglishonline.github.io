@@ -2,10 +2,13 @@ header-title: 私たちはクラスを行います
 logo-list: 
   - logo: /img/video-logo/zoom.png
     title: ZOOM
+    link: "https://zoom.us/download"
   - logo: /img/video-logo/skype.png
     title: SKYPE
+    link: "https://www.skype.com/en/get-skype/"
   - logo: /img/video-logo/zhumu.png
     title: ZHUMU
+    link: "https://zhumu.com/download"
 
 
 services: 
@@ -16,30 +19,29 @@ services:
     features:
       - item: 1クラス/ 30分= 700円
       - item: 1ヶ月だけ20クラスを登録する 10,000円 (各クラス500円)
-    bottom-text: '料金を送る:'
+    bottom-text: '※学生割引あり　10％OFF <br/> PAYPALに料金を送金してください <br/> You can send your fee to:'
     bottom-logo: /img/video-logo/paypal.png
   
   column2:
-    title: 提供されるサービス
-    subtitle: すべての年齢
+    title: アナタにあった学習方法
+    subtitle: For all ages
+    subtitle2: どんな方でも
     features:
-      - item: 1クラス/ 30分= 700円
-      - item: 1ヶ月だけ20クラスを登録する 10,000円 (各クラス500円)
-      - item: ビジネス英語
-      - item: 英語のアルファベットを学ぶ
-      - item: フォニックスサウンド
-      - item: 毎日の会話
-      - item: 話す
-      - item: リスニング
-      - item: 読解
-      - item: 書く
-      - item: Business English
+      - item: Learn English Alphabet
+      - item: Phonic Sound
+      - item: Daily Conversation
+      - item: Speaking
+      - item: Listening
+      - item: Reading Comprehension
       - item: Writing
-      - item: IELTS
-      - item: IEKEN
-      - item: OPIC
-      - item: TOEFL
-    bottom-text: '*レベルごとに異なる本があります*'
+      - item: Business English　ビジネス英会話
+      - item: IELTS  対策
+      - item: EKEN  英検対策
+      - item: OPIC  対策
+      - item: TOEFL  対策
+      - item: TOEIC  対策
+
+    bottom-text: '*様々なレベルのテキストを用意しています * <br/>  We have different books for each level'
         
 
 

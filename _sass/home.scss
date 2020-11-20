@@ -75,7 +75,7 @@ $boilerplate-pricing-background-color: #fafafa;
 			padding-bottom: 40px;
 
 			.pricing-item{
-				max-width: 450px;
+				// max-width: 450px;
 				margin-left: auto;
 				margin-right: auto;
 				.pricing-item-wrapper{
@@ -142,7 +142,7 @@ $boilerplate-pricing-background-color: #fafafa;
 									color: #4a4a4a;
 								}
 								.pricing-price{
-									padding-bottom: 30px;
+									padding-bottom: 15px;
 									color: #4a4a4a;
 								}
 							}
@@ -224,6 +224,22 @@ $boilerplate-pricing-background-color: #fafafa;
 	.contact-item{
 		margin-bottom: 5px;
 		font-size: 20px;
+	}
+}
+
+@media (max-width: 1200px){
+	#cover{
+		.carousel-caption{
+			h2{
+				font-size: 24px;
+			}
+		} 
+	}
+	
+	.section-header-container{
+		.section-header{
+			font-size: 34px
+		}
 	}
 }
 
@@ -328,7 +344,7 @@ $boilerplate-pricing-background-color: #fafafa;
 	#cover{
 		.carousel-caption{
 			h2{
-				font-size: 20px;
+				font-size: 16px;
 			}
 		} 
 	} 

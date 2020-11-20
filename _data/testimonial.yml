@@ -1,5 +1,5 @@
-title: 幸せな学生
-button-text: お客様の声。 
+title: OUR HAPPY STUDENTS
+button-text: Student feedback
 testimonial:
   - id: 1
     text: 'I&#39;m working at pharmaceutical company and English is important to my
@@ -15,7 +15,7 @@ testimonial:
     image: /img/student/student2.jpg
 
   - id: 3
-    text:
+    text: "I run my own business and I love travelling around the world so I need to develop my daily English conversation. My friend recommended this school and I think I did a right decision to enroll here, because my every day class is fresh, exciting and challenging. My teacher is good not only at teaching but also taking care of her students. We love sharing ideas and also learn our own culture. Let's do more classes in the future. Thank you."
     image: /img/student/student3.jpg
 
   - id: 4

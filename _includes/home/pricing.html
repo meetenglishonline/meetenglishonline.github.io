@@ -1,7 +1,13 @@
 <div class="container default-container-padding">
-	<!-- <div class="section-header-container">
-		<h2 class="section-header text-center">Pricing</h2>
-	</div> -->
+	<div class="section-header-container">
+		<h4 class="text-center">無料体験授業を受けてみませんか？</h4>
+		<h4 class="text-center">Get and enjoy our free trial class with our good teachers.</h4>
+	</div>
+
+	<div class="section-header-container">
+		<h4 class="text-center">お手頃な価格で私たちのクラスに参加してください。より多くの割引を得る.</h4>
+		<h4 class="text-center">Register and be part of our educational classes at an affordable price. Get more discount!</h4>
+	</div>
 	
 	<div class="pricing-wrapper d-flex flex-wrap">
 		
@@ -11,20 +17,80 @@
 
 				<div class="content-padding">
 					<div class="pricing-header-container header-plan-free">
-						<h3 class="pricing-header d-block">{{ site.data.services.services.column1.title }}</h3>
+						<!-- <h3 class="pricing-header d-block">{{ site.data.services.services.column1.title }}</h3>
 						<span class="pricing-price d-block">{{ site.data.services.services.column1.subtitle }}</span>
-						<span class="pricing-trial d-block">{{ site.data.services.services.column1.sub-text }}</span>
+						<span class="pricing-trial d-block">{{ site.data.services.services.column1.sub-text }}</span> -->
 					</div>
 
-					<hr class="divider"/>
+					<!-- <hr class="divider"/> -->
 
 					<div class="pricing-content-container">
 						<ul class="feature-plan-free">
-							{% for item in site.data.services.services.column1.features %}
+							<table class="pricing-table table table-bordered" style="width:100%">
+								<thead>
+									<th scope="col"></th>
+									<th scope="col">30分の授業 <br/>30 minutes class
+										</th>
+									<th scope="col"></th>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1ヶ月/4回（週一回)<br/>
+											4 times a month (once a week)<br/>
+											</td>
+										<td>650円</td>
+										<td>2,600 円</td>
+									</tr>
+									<tr>
+										<td>1ヶ月/8回（週二回) <br/>
+											8 times a month (twice a week)
+										</td>
+										<td>600円</td>
+										<td>4,800 円</td>
+									</tr>
+									<tr>
+										<td>1ヶ月/12回 (週に三回) <br/>
+											12 times a month (3 times a week)
+											</td>
+										<td>550円</td>
+										<td>6,600 円</td>
+									</tr>
+									<tr>
+										<td>1ヶ月/16回 (週に4回)<br/>
+											16 times a month (4 times a week)
+											</td>
+										<td>500 円</td>
+										<td>8,000 円</td>
+									</tr>
+									<tr>
+										<td>1ヶ月/20回 (週5回)<br/>
+											20 times a month (5 times a week)
+											</td>
+										<td>450 円</td>
+										<td>9,000 円</td>
+									</tr>
+									<tr>
+										<td>1ヶ月/24回 (週に6回)<br/>
+											24 times a month (6 times a week)
+											</td>
+										<td>400 円</td>
+										<td>9,600 円</td>
+									</tr>
+									<tr>
+										<td>Every day class (1ヶ月/30回)</td>
+										<td></td>
+										<td>
+											10,000 円
+											</td>
+									</tr>
+
+								</tbody>
+							</table>
+							<!-- {% for item in site.data.services.services.column1.features %}
 							<li class="feature-list">
 								<span class="feature-title d-inline-block">{{ item.item }}</span> 
 							</li>
-							{% endfor %}
+							{% endfor %} -->
 						</ul>
 
 						<div class="paypal-icon">
@@ -43,7 +109,8 @@
 				<div class="content-padding">
 					<div class="pricing-header-container header-plan-free">
 						<h3 class="pricing-header d-block">{{ site.data.services.services.column2.title }}</h3>
-						<span class="pricing-price d-block">{{ site.data.services.services.column2.subtitle }}</span>						
+						<span class="pricing-price d-block">{{ site.data.services.services.column2.subtitle }}</span>					
+						<span class="pricing-price d-block">{{ site.data.services.services.column2.subtitle2 }}</span>	
 					</div>
 
 					<hr class="divider"/>

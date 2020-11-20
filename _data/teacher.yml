@@ -1,17 +1,27 @@
-title: あなたの英語の先生
-profile-button-text: 教師情報を見る
+title: ESL TEACHERS
+profile-button-text: Teacher info
 teacher:
-  - name: Melanie (メラニー)
+  - name: Melanie
     image: /img/teacher-avatar/melanie.png
     tagline:
     resume: /img/teacher-portfolio/mel.pdf
 
-  - name: JOY (喜び)
+  - name: JOY 
     image: /img/teacher-avatar/frances.png
     tagline: 
-    resume: /img/teacher-portfolio/frances.pdf
+    resume: /img/teacher-portfolio/joy.pdf
 
-  - name: Jean Loury (メラニー)
+  - name: Jean Loury
     image: /img/teacher-avatar/jean.png
     tagline: 
     resume: /img/teacher-portfolio/jean.pdf
+
+  - name: Maribeth
+    image: /img/teacher-avatar/maribeth.jpg
+    tagline: 
+    resume: /img/teacher-portfolio/beth.pdf
+
+  - name: Jilian
+    image: /img/teacher-avatar/jilian.jpg
+    tagline: 
+    resume: /img/teacher-portfolio/jilian.pdf

@@ -1,27 +1,29 @@
-contact-title: お気軽にお問い合わせください
-contact-subtitle: FEEL FREE TO CONTACT US
+contact-title: FEEL FREE TO CONTACT US
+contact-subtitle: お気軽にお問い合わせください
 
 contact-details:
-  - contact-title: ZOOM ID
+  - contact-title: Email
     contact-info: melai.sebastian86@gmail.com
     qrcode:
 
-  - contact-title: QQ ID
-    contact-info: 3042803034
-    qrcode:
-
-  - contact-title: KAKAO ID
-    contact-info: mel86
+  - contact-title: ZOOM ID
+    contact-info: melai.sebastian86@gmail.com
     qrcode:
 
   - contact-title: Skype ID
     contact-info: melanie.sebasian2
     qrcode:
 
+  - contact-title: QQ ID
+    contact-info: 3042803034
+    qrcode: /img/qr-code/qq.png
+
+  - contact-title: KAKAO ID
+    contact-info: mel86
+    qrcode: /img/qr-code/kakao.png
+
   - contact-title: Line ID
     contact-info: 639565204138
-    qrcode:
+    qrcode: /img/qr-code/line.png
 
-  - contact-title: Email
-    contact-info: melai.sebastian86@gmail.com
-    qrcode:
+ 
