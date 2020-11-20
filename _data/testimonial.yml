@@ -1,4 +1,4 @@
-title: OUR HAPPY STUDENTS
+title: Our happy students
 button-text: Student feedback
 testimonial:
   - id: 1
@@ -11,12 +11,12 @@ testimonial:
     image: /img/student/student1.jpg
 
   - id: 2
-    text:
-    image: /img/student/student2.jpg
-
-  - id: 3
     text: "I run my own business and I love travelling around the world so I need to develop my daily English conversation. My friend recommended this school and I think I did a right decision to enroll here, because my every day class is fresh, exciting and challenging. My teacher is good not only at teaching but also taking care of her students. We love sharing ideas and also learn our own culture. Let's do more classes in the future. Thank you."
     image: /img/student/student3.jpg
+
+  - id: 3
+    text:
+    image: /img/student/student2.jpg
 
   - id: 4
     text:

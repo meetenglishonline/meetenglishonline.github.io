@@ -4,10 +4,10 @@
       {% for banner in site.data.sliderBanner %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
         <img class="d-block w-100 carousel-image" src="{{ banner.banner-image }}" alt="{{ banner.name }}">
-        <div class="bg-overlay"></div>
+        <!-- <div class="bg-overlay"></div> -->
         <div class="carousel-caption d-block">
-          <h2>{{ banner.title }}</h2>
-          <p>{{ banner.description}}</p>
+          <!-- <h2>{{ banner.title }}</h2>
+          <p>{{ banner.description}}</p> -->
         </div>
       </div>
       {% endfor %}

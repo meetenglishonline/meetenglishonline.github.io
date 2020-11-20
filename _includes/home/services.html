@@ -1,16 +1,16 @@
 <div class="container default-container-padding">
   <div class="section-header-container">
-		<h2 class="section-header text-center">WE CAN DO CLASSES ON</h2>
+    <h4 class="text-center">私たちは、最適なネット環境を用意しています</h4>
+		<h2 class="section-header text-center">We can do classes on</h2>
   </div>
   
   <div class="logo-container">
     <div class="row">
       {% for logo in site.data.services.logo-list %}
       <div class="logo-list col-sm-4 col-12">
-        <a href="{{ logo.link }}" class="d-block" target="_blank">
-          <img src="{{ logo.logo }}" class="logo-image img-fluid center-block d-block"/>
-        </a>
-        <span class="logo-title d-block text-center">{{ logo.title }}</span>
+        <img src="{{ logo.logo }}" class="logo-image img-fluid center-block d-block"/>
+        <span class="logo-title d-block text-center" style="margin-bottom: 15px;">{{ logo.title }}</span>
+        <a style="display: table; margin-left: auto; margin-right: auto;" href="{{ logo.link }}" class="btn btn-primary" target="_blank">Download</a>
       </div>
       {% endfor %}
     </div>
