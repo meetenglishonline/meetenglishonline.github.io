@@ -251,6 +251,7 @@ body{
 // Navbar menu
 nav{
   background-color: $header-background-color;
+  border-bottom: 1px solid #cecece;
 
   .container-fluid{
     .navbar-collapse{

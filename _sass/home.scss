@@ -329,10 +329,12 @@ $boilerplate-pricing-background-color: #fafafa;
 	}
 }
 
-@media(max-width: 425px) {
+@media(max-width: 580px) {
 	.navbar-light{
 		.navbar-brand{
 			margin-left: 1rem;
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 	} 
 
@@ -340,6 +342,14 @@ $boilerplate-pricing-background-color: #fafafa;
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+
+	.navbar-light{
+		.navbar-nav{
+			.nav-link{
+				text-align: center;
+			}
+		} 
+	} 
 
 	#cover{
 		.carousel-caption{
